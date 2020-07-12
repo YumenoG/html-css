@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+html body {
+    overflow: hidden;
+    
+}
+
+.topMessage {
+    background-color: lightgray;
+    color: steelblue;
+
+    width: 100%;
+    margin: 0 -10%;  
+    padding: 0 10%;
+}
+
+.topMessage > h1{
+    font-size: 12px;
+    line-height: 0em;
+    
+}
+
