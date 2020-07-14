@@ -5,22 +5,13 @@
     padding: 0;
 }
 
-/* html body {
-    overflow: hidden;
-    
-} */
 
 .topMessage {
     background-color: lightgray;
-    
     padding: 10px 10px;
-
-    /* width: 100%;
-    margin: 0 -10%;  
-    padding: 0 10%; */
 }
 
-.topMessage h3{
+.topMessage h1{
     font-size: 14px;
     color: steelblue;
     
