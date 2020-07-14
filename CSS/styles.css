@@ -7,13 +7,17 @@
 
 
 .topMessage {
-    background-color: lightgray;
+    background-color: #eee;
     padding: 10px 10px;
+    display: flex;
+
 }
 
 .topMessage h1{
-    font-size: 14px;
-    color: steelblue;
+    font-size: 15px;
+    color: #1075bf;
+    font-weight: bold;
+    line-height: 1em;
     
 }
 
@@ -21,5 +25,8 @@
     text-decoration: none;
 }
 
-
+.glyphicon-chevron-right {
+    color: #666;
+    vertical-align: middle;
+}
 
