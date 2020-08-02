@@ -94,18 +94,21 @@
             </div>
         </div>
         <div class="reserveButton reserveButton-fixed">
-            <img src="./images/phoneIcon.png" alt="">
+            <div class="phoneButton">
+                <img src="./images/phoneIcon.png" alt="">
+                <p>電話</p>
+            </div>
             <p>空席確認・予約</p>
         </div>
     </section>
     <section>
         <div class="calender">
             <h4>ネット予約の空席確認</h4>
-            <table>
+            <table class="calenderTable">
                 <thead>
                    <tr>
-                       <th>土</th>
-                       <th>日</th>
+                       <th class="saturday">土</th>
+                       <th class="sunday">日</th>
                        <th>月</th>
                        <th>火</th>
                        <th>水</th>
@@ -116,11 +119,11 @@
                 <tbody>
                     <tr>
                         <td>
-                            <p>7/11</p>    
+                            <p class="saturday">7/11</p>    
                             <p>◯</p>    
                         </td>
                         <td>
-                            <p>12</p>    
+                            <p class="sunday">12</p>    
                             <p>◯</p>    
                         </td>
                         <td>
@@ -139,18 +142,18 @@
                             <p>16</p>    
                             <p>◯</p>    
                         </td>
-                        <td>
+                        <td class="last_td">
                             <p>17</p>    
                             <p>◯</p>    
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>18</p>    
+                            <p class="saturday">18</p>    
                             <p>◯</p>    
                         </td>
                         <td>
-                            <p>19</p>    
+                            <p class="sunday">19</p>    
                             <p>◯</p>    
                         </td>
                         <td>
@@ -169,16 +172,17 @@
                             <p>23</p>    
                             <p>◯</p>    
                         </td>
-                        <td>
+                        <td class="last_td">
                             <p>24</p>    
                             <p>◯</p>    
                         </td>    
                     </tr>
                 </tbody>
             </table>
-            <p>◯ ：ネット予約空席あり　■ : リクエスト予約</p>
-            <p>7/11 7:14更新</p>
-        </div>
+            <div class="calenderDiscription"></div>
+                <p class="hanrei">◯ ：ネット予約空席あり　■ : リクエスト予約</p>
+                <p class="dateUpdated">7/11 7:14更新</p>
+            </div>
     </section>
     <section>
         <div class="shopDiscription">

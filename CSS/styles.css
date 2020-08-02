@@ -236,12 +236,127 @@ img {
     text-align: center;  
 }
 
-.reserveButton-fixed {
-}
 
 .availability_bottom {
     display: flex;
 }
+
+
+.reserveButton-fixed {
+}
+
+.phoneButton {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.phoneButton img {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.reserveButton {
+    padding: 10px;
+    display: flex;
+
+}
+
+
+.phoneButton p {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+.reserveButton > p {
+    margin-bottom: 0;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 4px;
+    flex-grow: 7;  
+    
+}
+
+.calender {
+    background-color: bisque;
+    color: grey;
+
+}
+
+.calender h4 {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0;
+}
+
+.calenderTable {
+    margin: 0;
+    width: 100%;
+    border-color: grey;
+    text-align: center; 
+    font-size: 10px;
+    table-layout: fixed;
+}
+
+.calenderTable p {
+    margin-bottom: 2px;
+}
+
+.calenderTable thead {
+    border-collapse: collapse; 
+    text-align: center; 
+}
+
+.calenderTable th {
+    padding: 0 10px 3px 10px;
+    text-align: center; 
+    font-weight: normal;
+}
+
+.saturday {
+    color: skyblue;
+}
+
+.sunday {
+    color: red;
+}
+
+.calenderTable tbody {
+    background-color: white;
+}
+
+.calenderTable td {
+    padding: 8px 10px;
+    font-size: 12px;
+    border: solid 1px grey;
+    border-left: none;
+    /* border-right: none; */
+}
+
+.last_td {
+    border-right: none;
+}
+
+.calenderDiscription {
+    margin: 5px 10px;
+    display: flex;
+    font-size: 10px;
+}
+
+
+
+
 
 
 
