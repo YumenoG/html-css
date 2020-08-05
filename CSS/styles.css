@@ -146,7 +146,7 @@ img {
     height: 26px;
     padding: 5px 10px 5px 10px;
     border: solid 1px white;
-    border-radius:  10%;
+    border-radius:  3px;
     display: block;
     color: white;
     font-size: 10px;
@@ -160,9 +160,14 @@ img {
 .infoWrapper {
     display : flex ;
     justify-content: space-between;
+    align-items: start;
 }
 
-.smallInfoWrapper {  
+.smallInfoWrapper {
+    height: 55px; 
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
 }
 
 .smallInfoWrapper p { 
@@ -170,7 +175,11 @@ img {
 }
 
 .infoBind {
-    display: flex;  
+    display: flex; 
+    color: rgb(100, 100, 100);
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-right: 10px; 
 }
 
 .infoBind img {
@@ -179,22 +188,16 @@ img {
     margin: 0px 5px 0 0;
 }
 
-.infoBind {
-    color: rgb(100, 100, 100);
-    font-size: 10px;
-    margin-bottom: 0;
-}
-
 .availability {
     padding: 5px 10px;
     border: 1px solid rgb(100, 100, 100);
-    border-radius: 5%;   
+    border-radius: 3px;   
     display: flex;
     flex-direction: column;  
 }
 
 .availability p {
-
+    margin-bottom: 0;
 }
 
 .OKdate {
@@ -238,7 +241,7 @@ img {
 
 
 .availability_bottom {
-    display: flex;
+    display: flex;  
 }
 
 
