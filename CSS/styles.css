@@ -353,3 +353,104 @@ img {
     display: flex;
     font-size: 10px;
 }
+
+/* recommendedCourse_ block */
+
+/* .recommendedCourse__title {
+    background-color: brown;
+    color: white;
+    font-size: 14px;
+
+} */
+
+.recommendedCourse__p__title {
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    margin: 0;
+    line-height: 36px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: darkgrey;
+}
+
+.recommendedCourse__item {
+    padding: 15px;
+    display: flex;
+    border-bottom: solid 1px grey;
+}
+
+.recommendedCourse__img {
+    width: 70px;
+    height: 70px;
+    margin-right: 12px;
+    display: block;
+}
+
+.recommendedCourse__caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.recommendedCourse__h1__name {
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: bold;
+    color: blue;
+    display: block;
+}
+
+.recommendedCourse__p__sign {
+    background-color: lightgrey;
+    border-radius: 3px;
+    color: grey;
+    font-size: 10px;
+    padding: 2px;
+
+
+}
+
+.recommendedCourse__p__price {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+.recommendedCourse__p__price-crossed {
+    color: black;
+    text-decoration: line-through;
+
+}
+
+.recommendedCourse__p__benefit {
+    background-color: lightgrey;
+    border-radius: 3px;
+    color: grey;
+    padding: 2px;
+    font-size: 10px;
+    display: block;
+}
+
+.recommendedCourse__caption span {
+     color: red;
+}
+
+.netCourseList__btn {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px  grey;
+    padding: 12px;
+}
+
+.netCourseList__p {
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-weight: bold;
+    display: block;
+}
