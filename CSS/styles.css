@@ -236,11 +236,9 @@ img {
     text-align: center;  
 }
 
-
 .availability_bottom {
     display: flex;
 }
-
 
 .reserveButton-fixed {
 }
@@ -288,7 +286,6 @@ img {
 .calender {
     background-color: bisque;
     color: grey;
-
 }
 
 .calender h4 {
@@ -309,7 +306,8 @@ img {
 }
 
 .calenderTable p {
-    margin-bottom: 2px;
+    padding-bottom: 6px;
+    margin-bottom: 0;
 }
 
 .calenderTable thead {
@@ -352,4 +350,40 @@ img {
     margin: 5px 10px;
     display: flex;
     font-size: 10px;
+}
+
+.shopDiscription {
+    margin: 15px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.shopDiscription h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    line-height: 1.4;
+}
+
+.shopDiscription p {
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 12px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.shop_subTitle {
+    margin-bottom: 10px;
+}
+
+.kodawari {
+    background-color: bisque;
+}
+
+.kodawari h1{
+    margin-top: 0;
+    padding-top: 15px;
 }
