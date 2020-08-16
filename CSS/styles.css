@@ -413,11 +413,15 @@ img {
     display: block;
 }
 
-.recommendedCourse__price--crossed {
+.recommendedCourse__price--base {
     margin-bottom: 0;
     color: black;
     text-decoration: line-through;
     font-size: 14px;
+}
+
+.recommendedCourse__price--discounted span {
+    color: red;
 }
 
 .recommendedCourse__benefit {
@@ -428,10 +432,6 @@ img {
     padding: 2px;
     font-size: 10px;
     display: block;
-}
-
-.recommendedCourse__caption span {
-     color: red;
 }
 
 .netCourseList__link {
