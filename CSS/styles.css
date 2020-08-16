@@ -49,7 +49,7 @@ img {
     background-color: #CF1E21; /*#d8161f  #CF1E21*/
     display: flex;
     height: 45px;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);     
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
 }
 
 .topNav-left img{
@@ -80,7 +80,7 @@ img {
     color: rgb(100, 100, 100);
     padding: 5px;
     margin: 0;
-    display: block;  
+    display: block;
 }
 
 .subNav ul{
@@ -89,7 +89,7 @@ img {
     border-bottom: 2px solid whitesmoke;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: scroll; 
+    overflow-x: scroll;
 }
 
 .subNav li {
@@ -162,15 +162,15 @@ img {
     justify-content: space-between;
 }
 
-.smallInfoWrapper {  
+.smallInfoWrapper {
 }
 
-.smallInfoWrapper p { 
+.smallInfoWrapper p {
     margin-bottom: 4px;
 }
 
 .infoBind {
-    display: flex;  
+    display: flex;
 }
 
 .infoBind img {
@@ -188,9 +188,9 @@ img {
 .availability {
     padding: 5px 10px;
     border: 1px solid rgb(100, 100, 100);
-    border-radius: 5%;   
+    border-radius: 5%;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .availability p {
@@ -223,7 +223,7 @@ img {
 
 .bold_orange {
     color: orange;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
 .campain {
@@ -233,7 +233,7 @@ img {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    text-align: center;  
+    text-align: center;
 }
 
 
@@ -281,8 +281,8 @@ img {
     text-align: center;
     line-height: 45px;
     border-radius: 4px;
-    flex-grow: 7;  
-    
+    flex-grow: 7;
+
 }
 
 .calender {
@@ -303,7 +303,7 @@ img {
     margin: 0;
     width: 100%;
     border-color: grey;
-    text-align: center; 
+    text-align: center;
     font-size: 10px;
     table-layout: fixed;
 }
@@ -313,12 +313,12 @@ img {
 }
 
 .calenderTable thead {
-    text-align: center; 
+    text-align: center;
 }
 
 .calenderTable th {
     padding: 0 10px 3px 10px;
-    text-align: center; 
+    text-align: center;
     font-weight: normal;
 }
 
@@ -380,7 +380,7 @@ img {
 }
 
 .kodawari__item {
-    margin-bottom:10px; 
+    margin-bottom:10px;
     padding: 8px;
     background-color: white;
     border-radius: 5px;
