@@ -356,14 +356,7 @@ img {
 
 /* recommendedCourse_ block */
 
-/* .recommendedCourse__title {
-    background-color: brown;
-    color: white;
-    font-size: 14px;
-
-} */
-
-.recommendedCourse__p__title {
+.recommendedCourse__title {
     display: block;
     width: 100%;
     padding-left: 15px;
@@ -375,7 +368,7 @@ img {
     background-color: darkgrey;
 }
 
-.recommendedCourse__item {
+.recommendedCourse__wrapper {
     padding: 15px;
     display: flex;
     border-bottom: solid 1px grey;
@@ -395,7 +388,7 @@ img {
     
 }
 
-.recommendedCourse__h1__name {
+.recommendedCourse__name {
     margin: 0px 0px 10px 0px;
     font-size: 14px;
     line-height: 1.4;
@@ -404,30 +397,31 @@ img {
     display: block;
 }
 
-.recommendedCourse__p__sign {
+.recommendedCourse__sign {
     background-color: lightgrey;
     border-radius: 3px;
     color: grey;
     font-size: 10px;
     padding: 2px;
-
-
 }
 
-.recommendedCourse__p__price {
-    font-size: 12px;
+.recommendedCourse__price {
+    margin-bottom: 0;
+    font-size: 14px;
     color: black;
     font-weight: bold;
     display: block;
 }
 
-.recommendedCourse__p__price-crossed {
+.recommendedCourse__price--crossed {
+    margin-bottom: 0;
     color: black;
     text-decoration: line-through;
-
+    font-size: 14px;
 }
 
-.recommendedCourse__p__benefit {
+.recommendedCourse__benefit {
+    margin-top: 10px;
     background-color: lightgrey;
     border-radius: 3px;
     color: grey;
@@ -440,14 +434,14 @@ img {
      color: red;
 }
 
-.netCourseList__btn {
+.netCourseList__link {
     display: flex;
     justify-content: center;
     border-bottom: solid 1px  grey;
     padding: 12px;
 }
 
-.netCourseList__p {
+.netCourseList__name {
     padding: 0;
     margin: 0;
     color: grey;
