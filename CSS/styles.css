@@ -49,7 +49,7 @@ img {
     background-color: #CF1E21; /*#d8161f  #CF1E21*/
     display: flex;
     height: 45px;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);     
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
 }
 
 .topNav-left img{
@@ -80,7 +80,7 @@ img {
     color: rgb(100, 100, 100);
     padding: 5px;
     margin: 0;
-    display: block;  
+    display: block;
 }
 
 .subNav ul{
@@ -89,7 +89,7 @@ img {
     border-bottom: 2px solid whitesmoke;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: scroll; 
+    overflow-x: scroll;
 }
 
 .subNav li {
@@ -146,7 +146,7 @@ img {
     height: 26px;
     padding: 5px 10px 5px 10px;
     border: solid 1px white;
-    border-radius:  10%;
+    border-radius:  3px;
     display: block;
     color: white;
     font-size: 10px;
@@ -160,17 +160,26 @@ img {
 .infoWrapper {
     display : flex ;
     justify-content: space-between;
+    align-items: start;
 }
 
-.smallInfoWrapper {  
+.smallInfoWrapper {
+    height: 55px; 
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
 }
 
-.smallInfoWrapper p { 
+.smallInfoWrapper p {
     margin-bottom: 4px;
 }
 
 .infoBind {
-    display: flex;  
+    display: flex; 
+    color: rgb(100, 100, 100);
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-right: 10px; 
 }
 
 .infoBind img {
@@ -179,22 +188,16 @@ img {
     margin: 0px 5px 0 0;
 }
 
-.infoBind {
-    color: rgb(100, 100, 100);
-    font-size: 10px;
-    margin-bottom: 0;
-}
-
 .availability {
     padding: 5px 10px;
     border: 1px solid rgb(100, 100, 100);
-    border-radius: 5%;   
+    border-radius: 3px;   
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .availability p {
-
+    margin-bottom: 0;
 }
 
 .OKdate {
@@ -223,7 +226,7 @@ img {
 
 .bold_orange {
     color: orange;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
 .campain {
@@ -233,14 +236,12 @@ img {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    text-align: center;  
+    text-align: center;
 }
-
 
 .availability_bottom {
-    display: flex;
+    display: flex;  
 }
-
 
 .reserveButton-fixed {
 }
@@ -281,14 +282,13 @@ img {
     text-align: center;
     line-height: 45px;
     border-radius: 4px;
-    flex-grow: 7;  
-    
+    flex-grow: 7;
+
 }
 
 .calender {
     background-color: bisque;
     color: grey;
-
 }
 
 .calender h4 {
@@ -303,22 +303,23 @@ img {
     margin: 0;
     width: 100%;
     border-color: grey;
-    text-align: center; 
+    text-align: center;
     font-size: 10px;
     table-layout: fixed;
 }
 
 .calenderTable p {
-    margin-bottom: 2px;
+    padding-bottom: 6px;
+    margin-bottom: 0;
 }
 
 .calenderTable thead {
-    text-align: center; 
+    text-align: center;
 }
 
 .calenderTable th {
     padding: 0 10px 3px 10px;
-    text-align: center; 
+    text-align: center;
     font-weight: normal;
 }
 
@@ -352,6 +353,118 @@ img {
     margin: 5px 10px;
     display: flex;
     font-size: 10px;
+}
+
+.shopDiscription {
+    margin: 15px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.shopDiscription h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    line-height: 1.4;
+}
+
+.shopDiscription p {
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 12px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.shop_subTitle {
+    margin-bottom: 10px;
+}
+
+/* branch_#3_kodawari-block */
+
+.ic_arr_r::after {
+    font-family: FontAwesome;
+    content: \f054;
+    display: block;
+}
+
+.kodawari {
+    background-color: bisque;
+    padding: 0px 15px 15px 15px;
+}
+
+.kodawari__h1_title {
+    margin: 0;
+    padding: 12px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+}
+
+.kodawari__h1-span {
+    color: red;
+}
+
+.kodawari__item {
+    margin-bottom:10px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0px 1px orange;
+}
+
+.kodawari__img {
+    width: 70px;
+    height: 70px;
+    /* margin-right: 10px; */
+    display: block;
+}
+
+.kodawari__item-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.kodawari__h1 {
+    margin: 0;
+    padding: 0px 10px 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    display: block;
+}
+
+.kodawari__p__red {
+    padding: 0px 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+    display:block;
+}
+
+.kodawari__btn {
+    padding: 12px 10px;
+    margin: 0px 15px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kodawari__p {
+    padding: 0px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: grey;
+    display:block;
 }
 
 /* recommendedCourse_ block */
