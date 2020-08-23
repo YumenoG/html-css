@@ -524,8 +524,6 @@ img {
     /* padding: 0 -10px; */
     border-top: solid 1px grey;
     border-bottom: solid 1px grey;
-    display: flex;
-    align-items: center;
 }
 
 .recommendedMenu__name--top {
@@ -550,7 +548,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
 
 .recommendedCourse__name {
@@ -612,4 +609,28 @@ img {
     color: grey;
     font-weight: bold;
     display: block;
+}
+
+.ic_crown:before {
+
+}
+
+.recommendedMenu__linkContaints {
+    display: flex;
+    align-items: center;
+}
+
+.recommendedMenu__links--first.recommendedMenu__links--last　{
+    margin-bottom: 15px;
+}
+
+.recommendedMenu__linkContaints--right {
+    margin-left: auto;
+}
+
+.recommendedMenu__MenuNum {
+    display: block;
+    background-color: lightgrey;
+    margin: 0;
+    padding: auto 0;
 }
