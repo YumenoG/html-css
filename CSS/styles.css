@@ -384,12 +384,6 @@ img {
 
 /* branch_#3_kodawari-block */
 
-.ic_arr_r::after {
-    font-family: FontAwesome;
-    content: \f054;
-    display: block;
-}
-
 .kodawari {
     background-color: bisque;
     padding: 0px 15px 15px 15px;
@@ -467,72 +461,6 @@ img {
     display:block;
 }
 
-/* recommendedCourse_ block */
-
-.block-title {
-    display: block;
-    width: 100%;
-    padding-left: 15px;
-    margin: 0;
-    line-height: 36px;
-    font-size: 12px;
-    font-weight: bold;
-    color: white;
-    background-color: darkgrey;
-}
-
-.recommendedMenu {
-    padding: 15px;
-    background-color: lightgrey;
-}
-
-.recommendedMenu__subTitle {
-    padding: 0;
-    margin-bottom: 10px;
-    font-size: 12px;
-    font-weight: bold;
-    color: grey;
-}
-
-.recommendedMenu__wrapper {
-    display: flex;
-}
-
-.recommendedMenu__item {
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column; 
-}
-
-.recommendedMenu__item:last-child {
-    margin-right: 0;
-    display: flex;
-    flex-direction: column; 
-}
-
-.recommendedMenu__img {
-    margin-bottom: 5px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.recommendedMenu__name {
-    font-size: 12px;
-}
-
-.recommendedMenu__links {
-    /* padding: 0 -10px; */
-    border-top: solid 1px grey;
-    border-bottom: solid 1px grey;
-    display: flex;
-    align-items: center;
-}
-
-.recommendedMenu__name--top {
-    margin: 0;
-    line-height: 3.0;
-}
-
 .recommendedCourse__wrapper {
     padding: 15px;
     display: flex;
@@ -550,7 +478,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
 
 .recommendedCourse__name {
@@ -602,7 +529,6 @@ img {
 .netCourseList__link {
     display: flex;
     justify-content: center;
-    border-bottom: solid 1px  grey;
     padding: 12px;
 }
 
@@ -612,4 +538,154 @@ img {
     color: grey;
     font-weight: bold;
     display: block;
+}
+
+/* recommendedCourse_ block */
+
+.block-title {
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    margin: 0;
+    line-height: 36px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: darkgrey;
+}
+
+.Menu {
+    background-color: lightgrey;
+}
+
+.recommendedMenu {
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+.recommendedMenu__subTitle {
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
+
+.recommendedMenu__wrapper {
+    display: flex;
+}
+
+.recommendedMenu__item {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.recommendedMenu__item:last-child {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+.recommendedMenu__img {
+    margin-bottom: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.recommendedMenu__name--pickup {
+    font-size: 14px;
+    margin: 0;
+}
+
+.recommendedMenu__name--top {
+    font-size: 14px;
+    padding: 12px;
+    margin: 0;
+    font-weight: bold;
+    color: grey;
+    position:relative;
+    vertical-align: middle;
+}
+
+.recommendedMenu__name {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px;
+    margin: 0;
+    color: grey;
+}
+
+.recommendedMenu__links {
+    border-top: solid 1px grey;
+    background-color: white;
+}
+
+.recommendedMenu__name--top::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f521";
+    font-weight: 900;
+    margin-right: 5px;
+    color: gold;
+}
+
+.recommendedMenu__MenuNum::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f105";
+    font-weight: bold;
+    position:absolute;
+    left: 40px; 
+    font-size: 25px;
+    color: #998e73;
+}
+
+
+.recommendedMenu__linkGroup {
+    display: flex;
+    width: 80%;
+    margin: 0;
+    align-items: center;
+}
+
+.recommendedMenu__linkGroup::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f105";
+    font-weight: bold;
+    font-size: 25px;
+    position:absolute;
+    right: 12px;
+    color: #998e73; 
+}
+
+.recommendedMenu__linkContaints {
+    display: flex;
+    align-items: center;
+}
+
+.recommendedMenu__links--first {
+    margin-bottom: 15px;
+    border-bottom: solid 1px grey;
+}
+
+.recommendedMenu__links--last　{
+    margin-bottom: 15px;
+}
+
+.recommendedMenu__linkContaints--right {
+    margin-left: auto;
+}
+
+.recommendedMenu__MenuNum {
+    display: block;
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: lightgrey;
+    margin-right: 36px;
+    margin-bottom: 0;
+    border-radius: 8px;
+    position: relative;
+    color: #998e73;
 }
