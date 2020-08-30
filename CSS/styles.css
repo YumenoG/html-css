@@ -598,6 +598,16 @@ img {
     margin: 0;
 }
 
+.recommendedMenu__name--top {
+    font-size: 14px;
+    padding: 12px;
+    margin: 0;
+    font-weight: bold;
+    color: grey;
+    position:relative;
+    vertical-align: middle;
+}
+
 .recommendedMenu__name {
     font-size: 14px;
     font-weight: bold;
@@ -609,16 +619,6 @@ img {
 .recommendedMenu__links {
     border-top: solid 1px grey;
     background-color: white;
-}
-
-.recommendedMenu__name--top {
-    font-size: 14px;
-    padding: 12px;
-    margin: 0;
-    font-weight: bold;
-    color: grey;
-    position:relative;
-    vertical-align: middle;
 }
 
 .recommendedMenu__name--top::before {
